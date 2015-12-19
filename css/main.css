@@ -1,0 +1,41 @@
+body {
+  background: #001933;
+  color: #85AF93;
+  text-align: center;
+}
+
+.controls {
+  display: inline-block;
+}
+
+#break{
+  display: inline;
+  float: right;
+  margin-left: 2em;
+}
+
+#session {
+  display: inline;
+  float: left;
+ margin-right: 2em;
+}
+
+#clock {
+  height: 20em;
+  width: 20em;
+  border-radius: 100%;
+  border-width: .25em;
+  border-style: solid;
+  border-color:  #85AF93;
+  margin: 2em auto;
+}
+
+#clock p{
+  text-align: center;
+  font-size: 450%;
+  margin: 40px auto;
+}
+
+#start-reset {
+ margin: 2em;
+}

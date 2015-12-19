@@ -21,4 +21,5 @@
 #Future Features/To Do: 
   ```
   Add CSS to dispaly time passing by
+  Add minute button and second button to add and subtract time
   ```

@@ -47,7 +47,7 @@ $("p.workInt").html(timeDisplay(time.work));
 $("p.breakInt").html(timeDisplay(time.break));
 
 function addWork() {
-    time.work += 1;
+    time.work += 60;
     count = time.work;
     $("p.workInt").html(timeDisplay(count));
     //updating count var to change with work
@@ -56,7 +56,7 @@ function addWork() {
 
 function minusWork() {
     //on - button click subtract 1 to Work interval
-    time.work -= 1;
+    time.work -= 60;
     count = time.work;
      $("p.counter").html(timeDisplay(count));
      $("p.workInt").html(timeDisplay(count));
@@ -73,13 +73,13 @@ function minusWork() {
 
 function addBreak() {
     //on + button click add 1 to Break     interval
-    time.break += 1;
+    time.break += 60;
     $("p.breakInt").html(timeDisplay(time.break));
   };
 
 function minusBreak() {
     //on - button click subtract one from break interval
-  time.break -= 1;
+  time.break -= 60;
   //avoiding non-existant and negative intervals
   if (time.break >= 1) {
     $("p.breakInt").html(timeDisplay(time.break));

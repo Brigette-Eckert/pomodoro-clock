@@ -8,6 +8,7 @@
   Praticed creating shapes in CSS
   Praticed using event handlers
   Praticed using SetInterval and ClearInterval functions
+  Praticed problem solving via reverse engineeing project 
   Learned how to add audio to an event using Javascript
 
 ```

@@ -9,6 +9,11 @@ body {
   margin-bottom: 5em;
 }
 
+.controls button{
+  background: #004d00;
+  color: #cc2900;
+}
+
 #break{
   display: inline;
   float: right;
@@ -18,7 +23,7 @@ body {
 #session {
   display: inline;
   float: left;
- margin-right: 2em;
+  margin-right: 2em;
 }
 
 #clock {
@@ -27,7 +32,7 @@ body {
   border-radius: 100%;
   border-width: .25em;
   border-style: solid;
-  border-color:  #cc2900 ;
+  border-color:  #cc2900;
   background-color: #cc2900;
   margin: -45px auto;
   z-index: 1;
@@ -45,8 +50,18 @@ body {
 
 #start-reset {
  margin: 5em 2em;
+}
+
+#start-reset button{
+  background: #004d00;
+  font-weight: bold;
+  color: #cc2900;
+  height: 3em;
+  width: 5em;
+  margin: 0em .5em;
 
 }
+
 
 #clock-top {
    margin: auto;

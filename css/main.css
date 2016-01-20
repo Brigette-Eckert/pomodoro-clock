@@ -1,11 +1,12 @@
 body {
-  background: #001933;
-  color: #85AF93;
+  background: #331a00;
+  color: #fff;
   text-align: center;
 }
 
 .controls {
   display: inline-block;
+  margin-bottom: 5em;
 }
 
 #break{
@@ -21,13 +22,15 @@ body {
 }
 
 #clock {
-  height: 20em;
-  width: 20em;
+  height: 22em;
+  width: 22em;
   border-radius: 100%;
   border-width: .25em;
   border-style: solid;
-  border-color:  #85AF93;
-  margin: 2em auto;
+  border-color:  #cc2900 ;
+  background-color: #cc2900;
+  margin: -45px auto;
+  z-index: 1;
 }
 
 #clock p{
@@ -36,6 +39,65 @@ body {
   margin: 40px auto;
 }
 
-#start-reset {
- margin: 2em;
+#tomato-timer {
+  clear: both;
 }
+
+#start-reset {
+ margin: 5em 2em;
+
+}
+
+#clock-top {
+   margin: auto;
+   position: relative;
+   display: block;
+   color: #004d00;
+   width: 0px;
+   height: 0px;
+   border-right:  100px solid transparent;
+   border-bottom: 70px  solid #004d00;
+   border-left:   100px solid transparent;
+   -moz-transform:    rotate(35deg);
+   -webkit-transform: rotate(35deg);
+   -ms-transform:     rotate(35deg);
+   -o-transform:      rotate(35deg);
+   z-index: -1;
+}
+#clock-top:before {
+   border-bottom: 80px solid #004d00;
+   border-left: 30px solid transparent;
+   border-right: 30px solid transparent;
+   position: absolute;
+   height: 0;
+   width: 0;
+   top: -45px;
+   left: -65px;
+   display: block;
+   content: '';
+   -webkit-transform: rotate(-35deg);
+   -moz-transform:    rotate(-35deg);
+   -ms-transform:     rotate(-35deg);
+   -o-transform:      rotate(-35deg);
+   z-index: -1;
+
+}
+#clock-top:after {
+   position: absolute;
+   display: block;
+   color: #004d00;
+   top: 3px;
+   left: -105px;
+   width: 0px;
+   height: 0px;
+   border-right: 100px solid transparent;
+   border-bottom: 70px solid #004d00;
+   border-left: 100px solid transparent;
+   -webkit-transform: rotate(-70deg);
+   -moz-transform:    rotate(-70deg);
+   -ms-transform:     rotate(-70deg);
+   -o-transform:      rotate(-70deg);
+   content: '';
+   z-index: -1;
+}
+

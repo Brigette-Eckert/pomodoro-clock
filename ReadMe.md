@@ -1,3 +1,5 @@
+http://git.bbeckert.com/pomodoro/
+
 #Descrpiton
 ```	
 	A pomodoro clock I built as a project as a student at free code camp using Javascript
@@ -21,7 +23,6 @@
 
 #Future Features/To Do: 
   ```
-  Add CSS to dispaly time passing by
-  Add minute button and second button to add and subtract time
+
   ```
 
